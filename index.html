@@ -1,45 +1,151 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Adrián García — Disciplina Financiera | Bolsa e Inmuebles con Sistema y Método</title>
-<meta name="description" content="Divulgación financiera sin humo: finanzas personales, bolsa e inmuebles con el Método CAPITAL. Comunidad AIMers: Ahorrar, Invertir y Multiplicar. Capitán del Ejército del Aire, 9+ años en mercados y 5 en inmuebles.">
-<meta property="og:title" content="Adrián García — Disciplina Financiera">
-<meta property="og:description" content="Ni humo ni fórmulas mágicas: sistema y método. Método CAPITAL y comunidad AIMers.">
-<meta property="og:type" content="website">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 240'%3E%3Cpolygon points='120,15 210.9,67.5 210.9,172.5 120,225 29.1,172.5 29.1,67.5' fill='none' stroke='%23C9A961' stroke-width='6'/%3E%3Ctext x='120' y='158' text-anchor='middle' font-family='Georgia,serif' font-weight='900' font-size='104' fill='%23C9A961'%3EAG%3C/text%3E%3C/svg%3E">
+<meta name="description" content="Divulgación financiera sin humo: finanzas personales, bolsa e inmuebles con el Método CAPITAL. Comunidad AIMers: Ahorrar, Invertir y Multiplicar.">
+<link rel="icon" href="assets/logo.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Adrián García","url":"https://adriandegarcia.com","jobTitle":"Divulgador financiero","knowsAbout":["Inversión en bolsa","Análisis técnico","Análisis fundamental","Opciones financieras","Inversión inmobiliaria","Rent to rent","Flipping"]}</script>
-<style>
-/* ============================================================
-   ADRIANDEGARCIA · DESIGN TOKENS (Manual de Marca v1.0 · Anexo A)
-   Ley 70/25/5 · Dorado satinado ≤10% · WCAG AA
-   ============================================================ */
-:root{
-  --ag-navy:#1B2B3D; --ag-navy-deep:#0F1E30; --ag-gold:#C9A961; --ag-cream:#F4EFE6;
-  --ag-champagne:#E8D4A0; --ag-smoke:#0A121C; --ag-navy-mid:#2C4060; --ag-slate:#6B7A8C;
-  --ag-slate-2:#5A6B7E; --ag-slate-light:#8FA0B2; --ag-white:#FFFFFF;
-  --f-display:'Playfair Display',Georgia,serif; --f-body:'Inter',system-ui,sans-serif;
-  --f-mono:'JetBrains Mono',ui-monospace,monospace;
-  --g-glow:radial-gradient(circle at 70% 30%,rgba(201,169,97,.16) 0%,transparent 45%);
-  --g-halo:radial-gradient(circle at 85% 85%,rgba(232,212,160,.10) 0%,transparent 40%);
-  --g-depth:linear-gradient(180deg,#0F1E30 0%,#0A121C 100%);
-  --s16:16px;--s24:24px;--s32:32px;--s48:48px;--s64:64px;--s96:96px;
-  --maxw:1200px;
-}
-*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
-body{font-family:var(--f-body);font-size:16px;line-height:1.6;background:var(--ag-navy-deep);color:var(--ag-cream);-webkit-font-smoothing:antialiased}
-img{max-width:100%;display:block}
-a{color:inherit}
-.container{max-width:var(--maxw);margin:0 auto;padding:0 var(--s24)}
-@media(min-width:900px){.container{padding:0 var(--s48)}}
+<link rel="stylesheet" href="css/tokens.css"><link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Adrián García","url":"https://adriandegarcia.com","jobTitle":"Divulgador financiero","knowsAbout":["Inversión en bolsa","Análisis técnico","Análisis fundamental","Opciones financieras","Inversión inmobiliaria"]}</script>
+</head>
+<body>
+<main>
+<!-- ============ HERO (TOFU · navy deep + glow) ============ -->
+<section class="hero bg-deep glow hex-dark">
+  <div class="container hero-grid">
+    <div class="rv">
+      <p class="kicker mono">Briefing // Divulgación financiera · sin humo</p>
+      <h1>Tu patrimonio no se juega. <span class="gold">Se planifica.</span></h1>
+      <p class="lead-sub">Soy Adrián García, capitán del Ejército del Aire y divulgador financiero. Más de 9 años en los mercados y 5 en inmuebles, convertidos en un sistema: el <strong>Método CAPITAL</strong>. Nada de improvisaciones: disciplina financiera para Ahorrar, Invertir y Multiplicar.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-gold" href="recursos-gratis.html">Descarga el método gratis</a>
+        <a class="btn btn-ghost" href="metodo-capital.html">Conoce el Método CAPITAL</a>
+      </div>
+      <p class="hero-note">Solo nombre y email · Cero spam · Cero humo</p>
+    </div>
+    <div class="rv">
+      <figure class="dossier">
+        <div class="dossier-top"><span>Expediente // AG-01</span>
+          <span class="seal"><svg viewBox="0 0 48 48" fill="none" stroke="#1B2B3D" stroke-width="3" stroke-linecap="round"><path d="M24 4 41 14v20L24 44 7 34V14z"/><path d="M16 24l6 6 10-12"/></svg>Verificado</span></div>
+        <div class="photo-paper"><img src="assets/img/adrian-retrato.jpg" alt="Adrián García, divulgador financiero" width="412" height="700"></div>
+        <figcaption class="dossier-bottom"><span class="n">Adrián García</span><br><span class="r">CAPITÁN · EJÉRCITO DEL AIRE · DIVULGADOR FINANCIERO</span></figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="container">
+    <div class="databar rv">
+      <div><div class="num">09+</div><div class="lbl">Años en los mercados</div></div>
+      <div><div class="num">05</div><div class="lbl">Años en inmuebles</div></div>
+      <div><div class="num">03</div><div class="lbl">Inmuebles en rentas</div></div>
+      <div><div class="num">07</div><div class="lbl">Pasos del Método CAPITAL</div></div>
+    </div>
+  </div>
+</section>
 
-/* ---------- Tipografía ---------- */
-h1,h2{font-family:var(--f-display);color:var(--ag-cream)}
-h1{font-weight:900;font-size:clamp(40px,6vw,64px);line-height:1.08;letter-spacing:-.01em}
-h2{font-weight:700;font-size:clamp(30px,4vw,48px);line-height:1.15}
-h3
+<!-- ============ EL ENEMIGO: BRIEFING (navy) ============ -->
+<section class="bg-navy hex-dark">
+  <div class="container">
+    <div class="sec-head rv"><p class="kicker">Situación // El mercado no es tu enemigo</p>
+      <h2>El enemigo es el humo. Y se combate con <span class="gold">método</span>.</h2></div>
+    <div class="briefing rv">
+      <div class="row"><span class="tag">SITUACIÓN</span><p>El 90% de los que pierden dinero en bolsa no fallaron por el mercado: fallaron por ausencia de sistema. Promesas de riqueza rápida, señales sin tesis, operaciones improvisadas.</p></div>
+      <div class="row"><span class="tag">ANÁLISIS</span><p>La diferencia entre apostar e invertir se llama disciplina: control de cifras, ahorro automático, tesis escrita antes de cada operación y gestión del riesgo medida, no intuida.</p></div>
+      <div class="row"><span class="tag">ACCIÓN</span><p>Aplicar un sistema probado, paso a paso, en el orden correcto: Control, Ahorro, Patrimonio, Inversión, Tesis, Activo y Libertad. Ese es el Método CAPITAL. <a class="gold" href="metodo-capital.html">Ver el despliegue completo →</a></p></div>
+      <p class="doc mt24">DOC // AG-BRF-001 · CLASIFICACIÓN: PÚBLICO</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MÉTODO CAPITAL (MOFU · crema) ============ -->
+<section class="bg-cream hex-cream on-cream">
+  <div class="container">
+    <div class="sec-head rv"><p class="kicker">El sistema // Siete pasos, un orden</p>
+      <h2>Método <span class="gold">CAPITAL</span></h2>
+      <p class="lead-sub mt24">Cada letra es una fase de la operación. No se salta ninguna: el orden es parte del método.</p></div>
+    <div class="grid g3">
+      <div class="card rv"><div class="top"><span class="numeral">I</span><span class="galones"><i></i><i class="off"></i><i class="off"></i></span></div><h3>Control</h3><p class="mt16">Mando y control de tus finanzas: ingresos, gastos, deudas y patrimonio sobre el papel. Sin radiografía no hay operación.</p></div>
+      <div class="card rv"><div class="top"><span class="numeral">II</span><span class="galones"><i></i><i class="off"></i><i class="off"></i></span></div><h3>Ahorro</h3><p class="mt16">La munición. Sistema automático: porcentaje fijo, día fijo, cuenta fija. La disciplina sustituye a la fuerza de voluntad.</p></div>
+      <div class="card rv"><div class="top"><span class="numeral">III</span><span class="galones"><i></i><i class="off"></i><i class="off"></i></span></div><h3>Patrimonio</h3><p class="mt16">Blindaje de la retaguardia: fondo de seguridad y estructura patrimonial antes de cualquier despliegue.</p></div>
+      <div class="card rv"><div class="top"><span class="numeral">IV</span><span class="galones"><i></i><i></i><i class="off"></i></span></div><h3>Inversión</h3><p class="mt16">Bolsa e inmuebles con criterio: análisis técnico, fundamental y cuantitativo. Cada euro sale con orden de misión.</p></div>
+      <div class="card rv"><div class="top"><span class="numeral">V</span><span class="galones"><i></i><i></i><i class="off"></i></span></div><h3>Tesis</h3><p class="mt16">Inteligencia antes que acción: por qué entro, cuándo salgo, qué invalida la operación. Sin tesis escrita, no hay operación.</p></div>
+      <div class="card rv"><div class="top"><span class="numeral">VI</span><span class="galones"><i></i><i></i><i class="off"></i></span></div><h3>Activo</h3><p class="mt16">Acumulación de lo que paga: dividendos, rentas, negocios. El objetivo es que tus ingresos trabajen por ti.</p></div>
+      <div class="card rv"><div class="top"><span class="numeral">VII</span><span class="galones"><i></i><i></i><i></i></span></div><h3>Libertad</h3><p class="mt16">El objetivo final, medido en tiempo y no en lujos: meses de vida cubiertos por tus activos. La libertad se calcula.</p></div>
+      <div class="card rv" style="grid-column:1/-1;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between">
+        <p style="max-width:52ch"><strong>¿Quieres el mapa completo?</strong> Descarga gratis la Plantilla de Control Financiero y empieza por el paso I.</p>
+        <a class="btn btn-gold" href="lead-magnet-presupuesto.html">Quiero el paso I gratis</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RECURSOS GRATIS / LEAD MAGNETS (navy) ============ -->
+<section class="bg-deep glow">
+  <div class="container">
+    <div class="sec-head rv"><p class="kicker">Arsenal gratuito // Empieza hoy</p>
+      <h2>Recursos gratuitos. <span class="gold">Solo nombre y email.</span></h2></div>
+    <div class="grid g3">
+      <div class="card rv"><span class="numeral">01</span><h3 class="mt16">Plantilla de Control Financiero</h3><p class="mt16">Tu radiografía completa en una hoja: flujo de caja, ratio de deuda y objetivo de ahorro automático.</p><a class="btn btn-ghost btn-sm mt24" href="lead-magnet-presupuesto.html">Descargar</a></div>
+      <div class="card rv"><span class="numeral">02</span><h3 class="mt16">Guía: tus primeras acciones</h3><p class="mt16">Siete pasos para comprar tu primera acción con criterio: broker, comisiones y tu primera tesis escrita.</p><a class="btn btn-ghost btn-sm mt24" href="lead-magnet-acciones.html">Descargar</a></div>
+      <div class="card rv"><span class="numeral">03</span><h3 class="mt16">Checklist del inmueble rentable</h3><p class="mt16">27 puntos de verificación antes de firmar: rentabilidad, zona y números. El mismo que uso yo.</p><a class="btn btn-ghost btn-sm mt24" href="lead-magnet-inmuebles.html">Descargar</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DOCTRINA / CONFIANZA (crema) ============ -->
+<section class="bg-cream hex-cream on-cream">
+  <div class="container split">
+    <div class="rv"><p class="kicker">Doctrina // Lo que puedes exigirme</p>
+      <h2>Ni humo ni fórmulas mágicas. Y esto, <span class="gold">por escrito</span>.</h2>
+      <div class="filete"></div>
+      <ul class="clean mt24">
+        <li><strong>Nunca te diré qué comprar.</strong> Te enseño a construir tu propia tesis.</li>
+        <li><strong>Datos verificables.</strong> Cada cifra que veas aquí tiene fuente o es mi expediente real.</li>
+        <li><strong>Riesgo declarado siempre.</strong> Invertir implica perder: quien te diga lo contrario, te miente.</li>
+        <li><strong>Disciplina sobre motivación.</strong> Sistema y método; nada de improvisaciones.</li>
+      </ul></div>
+    <div class="rv"><figure class="dossier" style="margin:0">
+      <div class="dossier-top"><span>Expediente // AG-02</span><span class="seal"><svg viewBox="0 0 48 48" fill="none" stroke="#1B2B3D" stroke-width="3" stroke-linecap="round"><path d="M24 4 41 14v20L24 44 7 34V14z"/><path d="M16 24l6 6 10-12"/></svg>Sin humo</span></div>
+      <div class="photo-paper"><img src="assets/img/adrian-cuerpo.jpg" alt="Adrián García" loading="lazy"></div>
+      <figcaption class="dossier-bottom"><span class="n">9 años de mercados. 5 de inmuebles.</span><br><span class="r">FORMACIÓN: AT · AF · CUANTITATIVO · R2R · FLIPPING · SUBASTAS</span></figcaption>
+    </figure></div>
+  </div>
+</section>
+
+<!-- ============ PRODUCTOS (BOFU · navy deep) ============ -->
+<section class="bg-smoke hex-dark">
+  <div class="container">
+    <div class="sec-head rv"><p class="kicker">Operaciones // Elige tu despliegue</p>
+      <h2>Formación y comunidad con <span class="gold">sistema</span></h2></div>
+    <div class="grid g3">
+      <div class="card rv"><div class="top"><span class="galones"><i></i><i class="off"></i><i class="off"></i></span><span class="mono" style="color:var(--ag-slate-light);font-size:12px">CURSO</span></div>
+        <h3>Curso CAPITAL</h3><p class="mt16">El sistema completo en 7 módulos: de Control a Libertad. Vídeos, plantillas y casos reales documentados.</p>
+        <a class="btn btn-gold btn-sm mt24" href="curso-capital.html">Ver programa</a></div>
+      <div class="card rv"><div class="top"><span class="galones"><i></i><i></i><i class="off"></i></span><span class="mono" style="color:var(--ag-slate-light);font-size:12px">COMUNIDAD</span></div>
+        <h3>Comunidad AIMers</h3><p class="mt16">Ahorrar, Invertir y Multiplicar, en destacamento: briefings semanales, sala de tesis y vault de plantillas en Discord.</p>
+        <a class="btn btn-ghost btn-sm mt24" href="comunidad-aimers.html">Unirme</a></div>
+      <div class="card rv"><div class="top"><span class="galones"><i></i><i></i><i></i></span><span class="mono" style="color:var(--ag-slate-light);font-size:12px">PLAZAS LIMITADAS</span></div>
+        <h3>Mentoría 1:1</h3><p class="mt16">Acompañamiento personal para desplegar tu plan CAPITAL. Solicitudes abiertas: pocas plazas, máximo rigor.</p>
+        <a class="btn btn-ghost btn-sm mt24" href="mentoria-1a1.html">Solicitar plaza</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA FINAL ============ -->
+<section class="bg-deep glow center">
+  <div class="container rv" style="max-width:760px">
+    <p class="kicker" style="justify-content:center">Última orden // Empieza por el paso I</p>
+    <h2>La libertad financiera no se improvisa. <span class="gold">Se ejecuta.</span></h2>
+    <form class="ag-form" data-lm="newsletter-home" style="grid-template-columns:1fr;max-width:520px;margin:32px auto 0">
+      <input type="text" name="nombre" placeholder="Tu nombre" required autocomplete="given-name">
+      <input type="email" name="email" placeholder="Tu email" required autocomplete="email">
+      <button class="btn btn-gold" type="submit">Recibir la Plantilla de Control</button>
+      <p class="privacy">Solo tu nombre y tu email. Sin apellidos, sin spam, sin cesiones a terceros.</p>
+    </form>
+    <div class="form-ok">RECIBIDO // Revisa tu bandeja de entrada. Bienvenido al destacamento.</div>
+  </div>
+</section>
+</main>
+<script src="js/main.js" defer></script>
+</body>
+</html>
