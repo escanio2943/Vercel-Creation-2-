@@ -1,0 +1,33 @@
+/* ============================================================
+   ADRIANDEGARCIA — DESIGN TOKENS (fuente de verdad · Manual v1.0)
+   ============================================================ */
+:root{
+  /* Paleta principal */
+  --ag-navy:#1B2B3D;        /* base estructural 70% */
+  --ag-navy-deep:#0F1E30;   /* fondo principal */
+  --ag-gold:#C9A961;        /* acento ≤10% · satinado */
+  --ag-cream:#F4EFE6;       /* fondo claro editorial */
+  --ag-champagne:#E8D4A0;   /* brillos 60–80% */
+  /* Secundarios */
+  --ag-smoke:#0A121C;
+  --ag-navy-mid:#2C4060;
+  --ag-slate:#6B7A8C;
+  --ag-slate-2:#5A6B7E;
+  --ag-slate-light:#8FA0B2;
+  --ag-white:#FFFFFF;
+  --ag-copper:#B87333;      /* reserva A/B — NO usar sin test */
+  --ag-olive:#4A5F4F;       /* reserva */
+  /* Tipografías */
+  --f-display:'Playfair Display',Georgia,serif;
+  --f-body:'Inter',system-ui,sans-serif;
+  --f-mono:'JetBrains Mono',ui-monospace,monospace;
+  /* Degradados oficiales */
+  --g-sweep:linear-gradient(135deg,#0F1E30 0%,#1B2B3D 45%,#2C4060 70%,#C9A961 100%);
+  --g-depth:linear-gradient(180deg,#0F1E30 0%,#0A121C 100%);
+  --g-glow:radial-gradient(circle at 70% 30%,rgba(201,169,97,.16) 0%,transparent 45%);
+  --g-halo:radial-gradient(circle at 85% 85%,rgba(232,212,160,.10) 0%,transparent 40%);
+  /* Espaciado (escala 8 × 1.5) */
+  --s4:4px;--s8:8px;--s12:12px;--s16:16px;--s24:24px;--s32:32px;--s48:48px;--s64:64px;--s96:96px;--s128:128px;
+  /* Layout */
+  --maxw:1200px;--radius-pill:32px;
+}

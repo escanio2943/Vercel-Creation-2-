@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 330" fill="none">
+  <!-- Globo + órbita: trazo fino dorado (marca de agua, nunca relleno metálico) -->
+  <g opacity=".22" stroke="#C9A961" stroke-width=".8">
+    <circle cx="120" cy="120" r="88"/><ellipse cx="120" cy="120" rx="88" ry="30"/><ellipse cx="120" cy="120" rx="30" ry="88"/>
+  </g>
+  <path d="M38 168 A95 95 0 0 0 200 152" stroke="#C9A961" stroke-width="2" opacity=".4"/>
+  <path d="M200 152 l-11 -3 M200 152 l-8 8" stroke="#C9A961" stroke-width="2" opacity=".4"/>
+  <!-- Doble hexágono -->
+  <polygon points="120,15 210.9,67.5 210.9,172.5 120,225 29.1,172.5 29.1,67.5" stroke="#C9A961" stroke-width="2.5"/>
+  <polygon points="120,24 203.1,72 203.1,168 120,216 36.9,168 36.9,72" stroke="#C9A961" stroke-width=".8" opacity=".55"/>
+  <!-- Monograma -->
+  <text x="120" y="158" text-anchor="middle" font-family="Playfair Display,Georgia,serif" font-weight="900" font-size="104" fill="#C9A961" letter-spacing="2">AG</text>
+  <!-- Galones -->
+  <path d="M76 186 L120 173 L164 186" stroke="#C9A961" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M90 196 L120 185 L150 196" stroke="#C9A961" stroke-width="2.6" stroke-linecap="round"/>
+  <!-- Lockup -->
+  <text x="120" y="282" text-anchor="middle" font-family="Playfair Display,Georgia,serif" font-weight="700" font-size="27" fill="#F4EFE6" letter-spacing="2">ADRIÁN GARCÍA</text>
+  <text x="120" y="308" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="500" font-size="11" fill="#C9A961" letter-spacing="4">DISCIPLINA FINANCIERA</text>
+</svg>
